@@ -1,0 +1,14 @@
+name: LattoLatto
+main: DavyCraft648\LattoLatto\Main
+version: 1.0.0
+api: [ "4.11.0", "5.0.0" ]
+depend:
+  - Customies
+
+authors:
+  - DavyCraft648
+  - Fanzo Fw
+description: |
+  PocketMine plugin version of Latto Latto add-on.
+  Original add-on created by Fanzo Fw, https://www.youtube.com/shorts/5hRzholnZH4
+website: https://github.com/DavyCraft648/LattoLatto
