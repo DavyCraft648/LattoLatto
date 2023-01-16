@@ -12,6 +12,9 @@ use Symfony\Component\Filesystem\Path;
 final class Main extends \pocketmine\plugin\PluginBase{
 
 	protected function onLoad() : void{
+		if(!method_exists(LattoLattoPM4::class, "allowOffHand")){
+			throw new \Exception("Outdated Customies");
+		}
 		$this->saveResource("LattoLattoRP.mcpack");
 		$newPack = new ZippedResourcePack(Path::join($this->getDataFolder(), "LattoLattoRP.mcpack"));
 		$rpManager = $this->getServer()->getResourcePackManager();

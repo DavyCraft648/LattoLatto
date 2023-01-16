@@ -4,5 +4,5 @@ PocketMine plugin version of [Latto Latto add-on](https://www.youtube.com/shorts
 
 ## Requirement
 
-- PocketMine-MP 4.0.0 or higher
-- [Customies plugin](https://poggit.pmmp.io/p/Customies)
+- PocketMine-MP 4.11.0 or higher
+- [Customies plugin](https://poggit.pmmp.io/ci/DavyCraft648/Customies-NG/Customies)
